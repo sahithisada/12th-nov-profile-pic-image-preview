@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f0ede5; 
+}
+
+form {
+  display: inline-block;
+  background-color: #e2e8cf; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #000; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  font-family: 'Quicksand', sans-serif; 
+}
+
+form div {
+  margin: 20px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  color: #4a4e69; 
+  font-size: 1.1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f0ede5;
+  color: #4a4e69; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+input,
+button {
+  border: 2px solid #000; 
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #d5d8c1; 
+  color: #4a4e69; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+input:hover,
+button:hover {
+  background-color: #c1d3a2;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
